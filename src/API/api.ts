@@ -1,10 +1,8 @@
 import axios from 'axios';
 
-const baseURL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api'; // تعيين رابط افتراضي في حال غياب المتغير
-
 export const api = axios.create({
-  baseURL,
-  withCredentials: true, // تفعيل الكوكيز والجلسات
+  baseURL: 'https://almohra-backend.vercel.app/api',
+  withCredentials: true,
 });
 // إضافة Interceptor لتحديث الهيدر تلقائيًا قبل كل طلب
 api.interceptors.request.use(
