@@ -30,7 +30,7 @@ export default defineConfig({
       },
     },
   },
-  base: '/', // مسار الأساس للتطبيق
+  base: '/client', // مسار الأساس للتطبيق
   build: {
     outDir: 'dist', // Ensure this matches Vercel's output directory
   },

@@ -119,7 +119,7 @@ const Topbar = () => {
       <Stack direction="row" alignItems="center" spacing={1}>
         <ButtonBase
           component={Link}
-          href="/"
+          href="/client"
           disableRipple
           sx={{ lineHeight: 0, display: 'flex', alignItems: 'center' }}
         >

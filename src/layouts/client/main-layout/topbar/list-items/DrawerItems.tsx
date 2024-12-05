@@ -27,7 +27,7 @@ const DrawerItems = () => {
         bgcolor="info.lighter"
         zIndex={1000}
       >
-        <ButtonBase component={Link} href="/" disableRipple>
+        <ButtonBase component={Link} href="/client" disableRipple>
           <Image src={HorizonLogo} alt="logo" height={90} width={140} sx={{ mr: -3 }} />
           <Typography variant="h3">قصر المهره</Typography>
         </ButtonBase>

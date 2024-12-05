@@ -60,7 +60,7 @@ const Topbar = ({ isClosing, mobileOpen, setMobileOpen }: TopbarProps) => {
       <Stack spacing={{ xs: 1.5, sm: 2 }} alignItems="center">
         <ButtonBase
           component={Link}
-          href="/"
+          href="/client"
           disableRipple
           sx={{ lineHeight: 0, display: { xs: 'none', sm: 'block', lg: 'none' } }}
         >
